@@ -14,3 +14,5 @@ Section 02 HTML
 
 - [John Baskerville  02] (https://blemon7.github.io/history-of-type/baskerville2.html)
 - [John Baskerville  03] (https://blemon7.github.io/history-of-type/baskerville3.html)
+
+https://blemon7.github.io/history-of-type/baskerville4.html
