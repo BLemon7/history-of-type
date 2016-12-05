@@ -217,4 +217,19 @@ table {
         margin: auto 0;
         width: 100%;
         font-size: 115%;
+        
+/*---Tablet------*/
+
+@media (max-width: 50em){
+    body {
+    background-color: thistle;
+        margin: auto 0;
+        width: 85%;
+        font-size: 115%;}
+        
+        article {
+            width: 95%;
+            padding: 0.5em;
+    }
+    }
     
