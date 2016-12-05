@@ -34,6 +34,7 @@ table {
     display: table;
     border-collapse: collapse;
     border-spacing: 2px;
+    margin-bottom: 2em;
 }
 
 caption {
@@ -61,10 +62,6 @@ td,
     border: 1px solid #fff;
 }
 
-
-}
-
-}
 h1,
 h2,
 h3,
@@ -202,34 +199,34 @@ img {
     padding: 0;
     max-width: 100%;
 }
-table {
-    display: block;
-    margin: 4em auto;
-    padding: 0;
-    max-width: 100%;
-}
 
-/*---Smartphone------*/
-
-@media (max-width: 35em){
-    body {
-    background-color: aqua;
-        margin: auto 0;
-        width: 100%;
-        font-size: 115%;
         
 /*---Tablet------*/
 
 @media (max-width: 50em){
     body {
-    background-color: thistle;
+        background-color: thistle;
         margin: auto 0;
         width: 85%;
         font-size: 115%;}
         
         article {
             width: 95%;
-            padding: 0.5em;
-    }
+            padding: 0.5em;}
     }
     
+/*---Smartphone------*/
+
+@media (max-width: 30em){
+    
+    body {
+        background-color: aqua;
+        margin: auto 0;
+        width: 90%;
+        font-size: 115%;}
+    
+    h1 {font-size: 3em;}
+    
+    blockquote{font-size: 1.5em}
+}
+        
