@@ -15,3 +15,5 @@ Section 02 HTML
 
 
 - [Typography exercise] (https://blemon7.github.io/history-of-type/Week11.html)
+
+- [Design Essay Webpage] (https://blemon7.github.io/history-of-type/design-essay-webpage.html)
