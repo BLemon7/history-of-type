@@ -12,4 +12,4 @@ Section 02 HTML
 - [John Baskerville 04] (https://blemon7.github.io/history-of-type/baskerville4.html)
 - [John Baskerville 05] (https://blemon7.github.io/history-of-type/baskerville5.html)
 
-- [Typography exercise] https://blemon7.github.io/history-of-type/Week11.html
+- [Typography exercise] (https://blemon7.github.io/history-of-type/Week11.html)
