@@ -1,146 +1,202 @@
-/* CSS Reset */
-
-
 * {
     padding: 0;
     margin: 0;
     font-size: 100%;
-    line-height: 1em; }
+    line-height: 1em;
+}
+
+
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
 
 body {
     background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
-    padding: 2em 2em 4em; }
+    padding: 2em 2em 4em;
+}
 
+/*--------Table-----------*/
 
+table {
+    margin: auto;
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+}
 
-h1, h2, h3 {
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fff;
+    text-transform: uppercase;
     font-weight: normal;
-    color: #222;
-    text-align: center;}
+    text-align: left;
+    background: #c06;
+}
 
+th,
+td {
+    padding: .6em;
+}
+
+table,
+td,
+{
+    background: rgba(0, 0, 0, .1);
+    border: 1px solid #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
 h2 {
     margin-top: 1.3em;
 }
-
-b, strong {
-    font-weight: 600;}
-
+a {
+    color: #0083e8;
+}
+b,
+strong {
+    font-weight: 600;
+}
 samp {
-    display: none;}
-
-
-p, li {
+    display: none;
+}
+img {
+    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    color: #c06;
+    text-align: center;
+}
+p,
+li {
     margin-bottom: 1.5em;
-    line-height: 1.5;}
-
+    line-height: 1.5;
+}
 h1 {
     font-size: 4em;
-    margin-top: 1em margin-bottom: 1em }
-
+    margin-top: 1em margin-bottom: 1em
+}
 h2 {
     font-size: 2.25em;
     margin-bottom: 1em;
-    font-style: italic;
 }
-
 header h2 {
     font-style: italic;
     font-size: 1.8em;
     color: #333;
 }
-
 hgroup {
     margin-bottom:
 }
-
 .intro {
     font-size: 1.25em;
     line-height: 1.25em;
 }
-
 blockquote {
     padding: 1em 0 2em 0;
     font-size: 1.75em;
     line-height: 1.4em;
     hanging-punctuation: first;
     text-indent: -0.45em;
-    margin: 0;
-    color: darkgray;
-    font-style: italic;
-    
+    /* change according to font */
+    color: red margin: 0;
 }
-
 blockquote cite {
     font-size: .75em;
 }
-
-cite {
-    color: darkgray;
-}
-
 .anchor {
     text-transform: uppercase;
 }
-
 .leader {
     text-transform: uppercase;
 }
 
-.dropcap  {
-  float: left;
-font-size: 4.7em;
-    line-height: .5em;
-    margin-right: 0;
+/* Links*/
+a {
+    color: #c06;
+    text-decoration: none;
+}
+a:hover {
+    color: #000634;
+    border-bottom: 1px dotted;
 }
 
-.version2 {
-    font-family: 'Open Sans', sans-serif;
+/* Nav */
+nav {
+    padding: 1em 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin-bottom: 4em;
 }
-
-.version2 p+p {
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: -0.1em;
-}
-
-.version2 p+p+p { 
-    font-family: 'Open Sans', sans-serif;
-    text-indent: 1.5em;
-}
-
-.version2 cite {
+nav ul {
+    text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
-    
-
-.version3 {
-    font-family: 'Open Sans', sans-serif;
+nav ul li {
+    display: inline;
+    margin: 20px;
 }
-
-.version3 blockquote {
-    color: darkgray;
-}
-
-.version3 h1, h2, {
-    font-family: 'Roboto Slab', serif; }
-
-.version3 blockquote {
-    font-family: 'Roboto Slab', serif; }
-
-hr {
-    margin: 4em 0;
-	height: 1px;
-    background-color: red;
-    color: red;
-    border: 0 none;
+nav a:hover {
+    border-bottom: none;
 }
 
-
+/* Images*/
+img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+}
 
         
 /*---Tablet------*/
