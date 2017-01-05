@@ -99,6 +99,8 @@ blockquote cite {
 }
 
 /* Links*/
+
+.center {
 a {
     color: red;
     text-decoration: none;
@@ -106,6 +108,7 @@ a {
 a:hover {
     color: #333;
     border-bottom: 1px dotted;
+}
 }
 
 /* Nav */
@@ -141,7 +144,7 @@ img {
 
 @media (max-width: 50em){
     body {
-        background-color: thistle;
+        background: url(images/sayagata-400px.png) repeat 0 0;
         margin: auto 0;
         width: 85%;
         font-size: 115%;}
@@ -156,7 +159,7 @@ img {
 @media (max-width: 30em){
     
     body {
-        background-color: aqua;
+        background: url(images/sayagata-400px.png) repeat 0 0;
         margin: auto 0;
         width: 90%;
         font-size: 115%;}
