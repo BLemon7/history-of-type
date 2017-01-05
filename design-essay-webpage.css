@@ -104,6 +104,7 @@ blockquote cite {
 a {
     color: red;
     text-decoration: none;
+    text-align: center;
 }
 a:hover {
     color: #333;
