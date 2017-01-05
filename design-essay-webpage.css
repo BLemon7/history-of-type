@@ -90,8 +90,9 @@ blockquote {
     line-height: 1.4em;
     hanging-punctuation: first;
     text-indent: 0em;
-    color: #333;
+    color: #545454;
     margin: 0;
+    text-align: center;
 }
 blockquote cite {
     font-size: .75em;
