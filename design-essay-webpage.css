@@ -52,7 +52,6 @@ h1,
 h2,
 h3 {
     font-weight: normal;
-    color: red;
     text-align: center;
 }
 p,
@@ -86,8 +85,7 @@ blockquote {
     line-height: 1.4em;
     hanging-punctuation: first;
     text-indent: -0.45em;
-    /* change according to font */
-    color: red;
+    color: #333;
     margin: 0;
 }
 blockquote cite {
@@ -102,11 +100,11 @@ blockquote cite {
 
 /* Links*/
 a {
-    color: #c06;
+    color: red;
     text-decoration: none;
 }
 a:hover {
-    color: #000634;
+    color: #333;
     border-bottom: 1px dotted;
 }
 
