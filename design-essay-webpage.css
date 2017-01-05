@@ -10,15 +10,11 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: 'EB Garamond', serif;
-    font-size: 16px;
+    font-size: 1.25em;
     line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
     padding: 2em 2em 4em;
-}
-
-#para1 {
-    font-size: 2em;
 }
 
 caption {
@@ -47,9 +43,7 @@ h6 {
 h2 {
     margin-top: 1.3em;
 }
-a {
-    color: #0083e8;
-}
+
 b,
 strong {
     font-weight: 600;
@@ -85,9 +79,10 @@ header h2 {
 hgroup {
     margin-bottom:
 }
-.intro {
-    font-size: 1.25em;
+.introduction {
+    font-size: 1.5em;
     line-height: 1.25em;
+    text-align: center;
 }
 blockquote {
     padding: 1em 0 2em 0;
@@ -103,6 +98,7 @@ blockquote cite {
 }
 .anchor {
     text-transform: uppercase;
+    text-align: center;
 }
 .leader {
     text-transform: uppercase;
