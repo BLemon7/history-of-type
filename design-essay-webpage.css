@@ -84,6 +84,16 @@ hgroup {
     line-height: 1.25em;
     text-align: center;
 }
+
+.firstcharacter { float: left; 
+    color: #c06; 
+    font-size: 60px; 
+    line-height: 55px; 
+    padding-top: 4px; 
+    padding-right: 8px; 
+    padding-left: 3px; 
+    font-family: EB Garamond; }
+
 blockquote {
     padding: 1em 0 2em 0;
     font-size: 1.75em;
@@ -107,7 +117,6 @@ blockquote cite {
 
 /* Links*/
 
-
 a {
     color: #c06;
     text-decoration: none;
@@ -116,6 +125,10 @@ a {
 a:hover {
     color: #000634;
     border-bottom: 1px dotted;
+}
+
+a:visited {
+    color: red;
 }
 
 /* Nav */
@@ -151,8 +164,15 @@ img {
     max-width: 100%;
 }
 
+.bibliography {
+    font-size: 1.5em;
+    line-height: 1.25em;
+    text-align: center;
+}
+
+
         
-/*---Tablet------*/
+/*---Tablet---*/
 
 @media (max-width: 50em){
     body {
